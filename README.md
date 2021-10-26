@@ -13,10 +13,21 @@ Inhaltsverzeichnis:
    - Vorgesehener Zeitaufwand für die Realisierung
    - Stolpersteine
 
-3. Benoetigte Hard- und Software
-   - Hardware (Materialliste, Funktionalitaet)
-   - Software (Anforderungen, Firmware, OS-Image, ergaenzende SW-Packages, Ab-
-	hängigkeiten, Funktionalitaet)
+---
+**1.3. Benötigte Hard- und Software**
+   - Hardware 
+
+1 x Raspberry PI mindestens PI 4 <br>
+1 x Monitor (ist einfacher als verschiedene Viewer bsp. VNC) <br>
+1 x SD Karte 8 GB <br>
+1 x Netzwerkkabel ca. 1 Meter <br>
+
+---
+   - Software 
+
+1 x Putty oder VNC Viewer
+	
+---
 
 4. Installationsanleitung (Didaktisch reduzierte Anleitung. Lernende sollen eine
      eigene Lösungswege realisieren)
