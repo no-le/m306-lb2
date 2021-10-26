@@ -12,13 +12,21 @@ Inhaltsverzeichnis:
 ---
    
 **2. Einfuehrung** 
-   - Beschreibung: Welche Funktionen wird der Service erfuellen
-   - Vorgesehener Zeitaufwand für die Realisierung
-   - Stolpersteine
-
+---
+   - _**Beschreibung: Welche Funktionen wird der Service erfuellen**_
+---
+Pi NAS
+Pi-Nas ist ein Netzwerkspeicher der mit den Samba Packages installiert wurde, der im eigenen Netzwerk den Geräte Speicher zur Verfügung stellt. Über einen Freigegebenen Netzwerkpfad hat der Benutzer die Möglichkeit Dateien herunterzuladen und hochzuladen. 
+---
+   - _**Vorgesehener Zeitaufwand für die Realisierung**_
+   Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
+---
+   - _**Stolpersteine**_
+---
 ---
 **1.3. Benötigte Hard- und Software**
-   - Hardware 
+---
+   - _**Hardware**_ 
 
 1 x Raspberry PI mindestens PI 4 <br>
 1 x Monitor (ist einfacher als verschiedene Viewer bsp. VNC) <br>
@@ -26,9 +34,11 @@ Inhaltsverzeichnis:
 1 x Netzwerkkabel ca. 1 Meter <br>
 
 ---
-   - Software 
+   - _**Software**_
+---
 
 1 x Putty oder VNC Viewer
+1 x Samba
 	
 ---
 
