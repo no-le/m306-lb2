@@ -25,8 +25,8 @@ Pi-Nas ist ein Netzwerkspeicher der mit den Samba Packages installiert wurde, de
 ---
 ---
 **1.3. Benötigte Hard- und Software**
----
-   - _**Hardware**_ 
+
+   - Hardware
 
 1 x Raspberry PI mindestens PI 4 <br>
 1 x Monitor (ist einfacher als verschiedene Viewer bsp. VNC) <br>
@@ -34,8 +34,7 @@ Pi-Nas ist ein Netzwerkspeicher der mit den Samba Packages installiert wurde, de
 1 x Netzwerkkabel ca. 1 Meter <br>
 
 ---
-   - _**Software**_
----
+   - Software
 
 1 x Putty oder VNC Viewer
 1 x Samba
@@ -44,9 +43,15 @@ Pi-Nas ist ein Netzwerkspeicher der mit den Samba Packages installiert wurde, de
 
 **4. Installationsanleitung (Didaktisch reduzierte Anleitung. Lernende sollen eine
      eigene Lösungswege realisieren)**
-   - Anweisungen verstaendlich und nachvollziehbar
-   - Keine fertigen Loesungsschritte aufzeigen
-   - Hilfestellung (Tipps, Quellen...)
+     
+---
+   - _**Anweisungen verstaendlich und nachvollziehbar**_
+---
+   - _**Keine fertigen Loesungsschritte aufzeigen**_
+---
+   - _**Hilfestellung (Tipps, Quellen...)**_
+
+---
    
 Bei der Installation der Samba-Packete hatten wir das Problem, dass wir zuerst die neusten Updates installieren mussten. Bei der Eingabe des Commands: "Sudo apt-get update" hatten wir das Problem, dass eine Fehlermeldung erschien. In der stand, dass man das Depot mit dem Suite Wert von : "stable" in "oldstable" ändern mussten.
 ---
