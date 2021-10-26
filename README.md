@@ -1,4 +1,4 @@
-Werkstattauftrag W06 + PiNAS
+Werkstattauftrag W06 PiNAS
 ===========================================================================
 
 Inhaltsverzeichnis:
