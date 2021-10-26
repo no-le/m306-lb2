@@ -43,10 +43,6 @@ Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
 	
 ---
 **4. Installationsanleitung**
-
----
-  
-
 ---
 
 **5. Qualitätskontrolle (Prüfen der Funktionalität mit Ablauf von Kommandos
