@@ -51,7 +51,7 @@ Inhaltsverzeichnis:
 
 **7. Quellen**
 
-https://exerror.com/repository-http-deb-debian-org-debian-buster-updates-inrelease-changed-its-suite-value-from-stable-updates-to-oldstable-updates/
+<a href=https://exerror.com/repository-http-deb-debian-org-debian-buster-updates-inrelease-changed-its-suite-value-from-stable-updates-to-oldstable-updates>Samba Pakete Debugging</a> 
 ---
 
 **1.8. OpenSource Lizenz**
