@@ -51,6 +51,7 @@ Inhaltsverzeichnis:
 
 **7. Quellen**
 
+https://exerror.com/repository-http-deb-debian-org-debian-buster-updates-inrelease-changed-its-suite-value-from-stable-updates-to-oldstable-updates/
 ---
 
 **1.8. OpenSource Lizenz**
