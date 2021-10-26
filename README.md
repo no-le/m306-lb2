@@ -1,9 +1,9 @@
 Werkstattauftrag W06 Pi-NAS
 ===========================================================================
 
-Inhaltsverzeichnis:
+**Inhaltsverzeichnis:**
 -------------------
-
+---
 **1. Autoren, Versionierung des Dokumentes**
    - Noah Lennemann, noah.lennemann@edu.tbz.ch
    - Leon Rezek, leon.rezek@edu.tbz.ch
