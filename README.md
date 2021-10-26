@@ -16,7 +16,7 @@ Inhaltsverzeichnis:
    - _**Beschreibung: Welche Funktionen wird der Service erfuellen**_
 ---
 Pi NAS
-Pi-Nas ist ein Netzwerkspeicher der mit den Samba Packages installiert wurde, der im eigenen Netzwerk den Geräte Speicher zur Verfügung stellt. Über einen Freigegebenen Netzwerkpfad hat der Benutzer die Möglichkeit Dateien herunterzuladen und hochzuladen. 
+- Pi-Nas ist ein Netzwerkspeicher der mit den Samba Packages installiert wurde, der im eigenen Netzwerk den Geräte Speicher zur Verfügung stellt. Über einen Freigegebenen Netzwerkpfad hat der Benutzer die Möglichkeit Dateien herunterzuladen und hochzuladen. 
 ---
    - _**Vorgesehener Zeitaufwand für die Realisierung**_
 ---
@@ -47,7 +47,7 @@ Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
      eigene Lösungswege realisieren)**
 
 ---
-   
+  
 
 ---
 
@@ -58,7 +58,7 @@ Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
 
 **6. Error-Handling** 
 ---
-Bei der Installation der Samba-Packete hatten wir das Problem, dass wir zuerst die neusten Updates installieren mussten. Bei der Eingabe des Commands: "Sudo apt-get update" hatten wir das Problem, dass eine Fehlermeldung erschien. In der stand, dass man das Depot mit dem Suite Wert von : "stable" in "oldstable" ändern mussten.
+- Bei der Installation der Samba-Packete hatten wir das Problem, dass wir zuerst die neusten Updates installieren mussten. Bei der Eingabe des Commands: "Sudo apt-get update" hatten wir das Problem, dass eine Fehlermeldung erschien. In der stand, dass man das Depot mit dem Suite Wert von : "stable" in "oldstable" ändern mussten.
 ---
 **7. Quellen**
 ---
