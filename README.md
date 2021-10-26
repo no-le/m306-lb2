@@ -43,17 +43,10 @@ Pi-Nas ist ein Netzwerkspeicher der mit den Samba Packages installiert wurde, de
 
 **4. Installationsanleitung (Didaktisch reduzierte Anleitung. Lernende sollen eine
      eigene Lösungswege realisieren)**
-     
----
-   - _**Anweisungen verstaendlich und nachvollziehbar**_
----
-   - _**Keine fertigen Loesungsschritte aufzeigen**_
----
-   - _**Hilfestellung (Tipps, Quellen...)**_
 
 ---
    
-Bei der Installation der Samba-Packete hatten wir das Problem, dass wir zuerst die neusten Updates installieren mussten. Bei der Eingabe des Commands: "Sudo apt-get update" hatten wir das Problem, dass eine Fehlermeldung erschien. In der stand, dass man das Depot mit dem Suite Wert von : "stable" in "oldstable" ändern mussten.
+
 ---
 
 **5. Qualitaetskontrolle (Pruefen der Funktionalitaet mit Ablauf von Kommandos
@@ -62,10 +55,12 @@ Bei der Installation der Samba-Packete hatten wir das Problem, dass wir zuerst d
 ---
 
 **6. Error-Handling** 
-
+---
+Bei der Installation der Samba-Packete hatten wir das Problem, dass wir zuerst die neusten Updates installieren mussten. Bei der Eingabe des Commands: "Sudo apt-get update" hatten wir das Problem, dass eine Fehlermeldung erschien. In der stand, dass man das Depot mit dem Suite Wert von : "stable" in "oldstable" ändern mussten.
 ---
 
 **7. Quellen**
+---
 
 <a href=https://exerror.com/repository-http-deb-debian-org-debian-buster-updates-inrelease-changed-its-suite-value-from-stable-updates-to-oldstable-updates>Samba Pakete Debugging</a> 
 ---
