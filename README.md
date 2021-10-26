@@ -42,9 +42,7 @@ Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
 1 x Samba
 	
 ---
-
-**4. Installationsanleitung (Didaktisch reduzierte Anleitung. Lernende sollen eine
-     eigene Lösungswege realisieren)**
+**4. Installationsanleitung**
 
 ---
   
