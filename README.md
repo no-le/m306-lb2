@@ -8,6 +8,8 @@ Inhaltsverzeichnis:
    - Noah Lennemann, noah.lennemann@edu.tbz.ch
    - Leon Rezek, leon.rezek@edu.tbz.ch
    - Version 1.1
+
+---
    
 **2. Einfuehrung** 
    - Beschreibung: Welche Funktionen wird der Service erfuellen
@@ -36,10 +38,16 @@ Inhaltsverzeichnis:
    - Keine fertigen Loesungsschritte aufzeigen
    - Hilfestellung (Tipps, Quellen...)
 
+---
+
 **5. Qualitaetskontrolle (Pruefen der Funktionalitaet mit Ablauf von Kommandos
 	und entsprechenden Outputs)**
+	
+---
 
 **6. Error-Handling** 
+
+---
 
 **7. Quellen**
 
