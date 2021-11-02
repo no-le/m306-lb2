@@ -46,33 +46,33 @@ Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
 ---
 	Nach dem klassischen sudo apt update und sudo apt upgrade, kommen wir dazu, Samba zu installieren. Dies machen wir mit dem untenstehenden Command. Die 		Installationsabfrage bestätigen wir mit "J".
 
-	![grafik](https://user-images.githubusercontent.com/89446419/139820046-2cc36b74-9204-4fe3-9c01-c765e053df0f.png)
+![grafik](https://user-images.githubusercontent.com/89446419/139820046-2cc36b74-9204-4fe3-9c01-c765e053df0f.png)
 
 ---
 	Danach wird mit dem unten folgenden Command getestet, ob alles in Ordnung ist und der Server läuft.
 
-	![grafik](https://user-images.githubusercontent.com/89446419/139814807-4e64c3ab-98f4-48a3-9590-e0d1d4dc691e.png)
+![grafik](https://user-images.githubusercontent.com/89446419/139814807-4e64c3ab-98f4-48a3-9590-e0d1d4dc691e.png)
 
-	![grafik](https://user-images.githubusercontent.com/89446419/139814826-66d64b31-9777-4014-a8ec-cc84d58cdb0f.png)
+![grafik](https://user-images.githubusercontent.com/89446419/139814826-66d64b31-9777-4014-a8ec-cc84d58cdb0f.png)
 
 
 ---
 	Die Konfigurationsdatei müssen wir später noch anpassen. Sichern tuen wir wie folgt: 
 
-	![grafik](https://user-images.githubusercontent.com/89446419/139814862-7ecc3274-622a-488c-a12d-2d1286f68d61.png)
+![grafik](https://user-images.githubusercontent.com/89446419/139814862-7ecc3274-622a-488c-a12d-2d1286f68d61.png)
 
 ---
 
 	Im nächsten Schritt muss man ein Ordner erstellen auf dem Pi, der Freigegeben werden sollte:
 
-	![grafik](https://user-images.githubusercontent.com/89446419/139819967-10e5ee66-e046-4f7d-9bcd-e31c916e320d.png)
+![grafik](https://user-images.githubusercontent.com/89446419/139819967-10e5ee66-e046-4f7d-9bcd-e31c916e320d.png)
 
 
 
 ---
 	Nun müssen wir die Konfigurationsdatei anpassen und ein paar Zeilen für die Freigabe hinzufügen. In diesem Fall müssen sie über den Command: 
 
-	![grafik](https://user-images.githubusercontent.com/89446419/139814965-40833665-e5f9-4fa1-898c-2d2547f75c15.png)
+![grafik](https://user-images.githubusercontent.com/89446419/139814965-40833665-e5f9-4fa1-898c-2d2547f75c15.png)
 
 
 	In die Konfigurationsdatei zugreifen und folgende Zeilen Hinzufügen:
@@ -94,7 +94,7 @@ Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
 	Im Windows Explorer auf dem Notebook muss man jetzt über den Pfad mit der IP-Adresse und der festgelegten Freigabe die man in der Konfigurationsdatei 		festgelegt hat, zugreifen.
 
 	BSP: \\172.16.17.137\Pi-Nas\
-	![grafik](https://user-images.githubusercontent.com/89446419/139815002-d48b941c-9ecc-4e5f-bcaa-42e58a106861.png)
+![grafik](https://user-images.githubusercontent.com/89446419/139815002-d48b941c-9ecc-4e5f-bcaa-42e58a106861.png)
 
 ---
 **4.1 USB-Stick mounten**
@@ -115,7 +115,7 @@ Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
 	eingibt, den man mounten will.
 
 
-	![grafik](https://user-images.githubusercontent.com/89446419/139819878-30f881e9-05c5-4304-9926-b45e74846f8f.png)
+![grafik](https://user-images.githubusercontent.com/89446419/139819878-30f881e9-05c5-4304-9926-b45e74846f8f.png)
 
 	sudo mount -t ntfs-3g -o uid=1000,gid=1000 /dev/sda1 /home/pi/sambashare/
 
