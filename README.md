@@ -140,13 +140,13 @@ Command korrekt ist. Um herauszufinden, welche uid und gid der Benutzer hat, mus
 ---
 **5. Qualitätskontrolle**
 ---
-- Um die Funktonalität des Sambas Dienstes zu testen, kann man folgenden Command eingeben:
+Um die Funktonalität des Sambas Dienstes zu testen, kann man folgenden Command eingeben:
 
 	sudo service smdb status:
-- ![grafik](https://user-images.githubusercontent.com/89446419/138848861-c8373b4b-ef10-4f69-888c-fb35f206a59f.png)
+![grafik](https://user-images.githubusercontent.com/89446419/138848861-c8373b4b-ef10-4f69-888c-fb35f206a59f.png)
  
  	testparm
-- ![grafik](https://user-images.githubusercontent.com/89446419/138849314-77a37703-1458-4c62-9a9d-a0e9bca6275b.png)
+![grafik](https://user-images.githubusercontent.com/89446419/138849314-77a37703-1458-4c62-9a9d-a0e9bca6275b.png)
 
 ---
 
