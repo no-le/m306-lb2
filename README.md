@@ -44,8 +44,8 @@ Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
 ---
 **4. Installationsanleitung**
 ---
-	**4.1 Nach dem klassischen sudo apt update und sudo apt upgrade, kommen wir dazu, Samba zu installieren. Dies machen wir mit dem untenstehenden Command. Die
-	Installationsabfrage bestätigen wir mit "J".**
+	Nach dem klassischen sudo apt update und sudo apt upgrade, kommen wir dazu, Samba zu installieren. Dies machen wir mit dem untenstehenden Command. Die
+	Installationsabfrage bestätigen wir mit "J".
 
 ![grafik](https://user-images.githubusercontent.com/89446419/139820046-2cc36b74-9204-4fe3-9c01-c765e053df0f.png)
 
@@ -122,17 +122,17 @@ Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
 	sudo mount -t ntfs-3g -o uid=1000,gid=1000 /dev/sda1 /home/pi/sambashare/
 
 ---
-	Tipps: 
+**Tipps:** 
 
-	/dev/sda1/ = USB-Stick Pfad
+_/dev/sda1/ = USB-Stick Pfad_
 
-	/home/pi/sambashare = Freigegebenen Pfad
+_/home/pi/sambashare = Freigegebenen Pfad_
 
-	Sollte die Meldung erscheinen, dass die Fehlermeldung kommt, dass der Datenträger schon gemountet wurde, muss man den zuerst unmounten.
+_Sollte die Meldung erscheinen, dass die Fehlermeldung kommt, dass der Datenträger schon gemountet wurde, muss man den zuerst unmounten._
  
 
-	Wenn die Fehlermeldung erscheint, dass man im mount Befehl, einen Value eintragen muss, sollte man zusätzlich auch beachten, dass die uid, und gid ID im
-	Command korrekt ist. Um herauszufinden, welche uid und gid der Benutzer hat, muss man den Befehl: "id" eingeben.
+_Wenn die Fehlermeldung erscheint, dass man im mount Befehl, einen Value eintragen muss, sollte man zusätzlich auch beachten, dass die uid, und gid ID im
+Command korrekt ist. Um herauszufinden, welche uid und gid der Benutzer hat, muss man den Befehl: "id" eingeben._
 
 
 
