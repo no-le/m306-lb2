@@ -95,7 +95,7 @@ BSP: \\172.16.17.137\Pi-Nas\
 ---
 
 
-**USB-Stick mounten**
+**4.1 USB-Stick mounten**
 
 Zuerst müssen wir die benötigten Treiber für NTFS-Festplatten herunterladen.
 
