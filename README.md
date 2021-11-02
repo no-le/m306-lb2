@@ -58,25 +58,25 @@ Installationsabfrage bestätigen wir mit "J".**
 
 
 ---
-	Die Konfigurationsdatei müssen wir später noch anpassen. Sichern tuen wir wie folgt: 
+**4.1.3 Die Konfigurationsdatei müssen wir später noch anpassen. Sichern tuen wir wie folgt:**
 
 ![grafik](https://user-images.githubusercontent.com/89446419/139814862-7ecc3274-622a-488c-a12d-2d1286f68d61.png)
 
 ---
 
-	Im nächsten Schritt muss man ein Ordner erstellen auf dem Pi, der Freigegeben werden sollte:
+**4.1.4 Im nächsten Schritt muss man ein Ordner erstellen auf dem Pi, der Freigegeben werden sollte:**
 
 ![grafik](https://user-images.githubusercontent.com/89446419/139819967-10e5ee66-e046-4f7d-9bcd-e31c916e320d.png)
 
 
 
 ---
-	Nun müssen wir die Konfigurationsdatei anpassen und ein paar Zeilen für die Freigabe hinzufügen. In diesem Fall müssen sie über den Command: 
+**4.1.5 Nun müssen wir die Konfigurationsdatei anpassen und ein paar Zeilen für die Freigabe hinzufügen. In diesem Fall müssen sie über den Command:** 
 
 ![grafik](https://user-images.githubusercontent.com/89446419/139814965-40833665-e5f9-4fa1-898c-2d2547f75c15.png)
 
 
-	In die Konfigurationsdatei zugreifen und folgende Zeilen Hinzufügen:
+**In die Konfigurationsdatei zugreifen und folgende Zeilen Hinzufügen:**
 
 	[sambashare]
     	comment = Samba on Ubuntu
@@ -85,36 +85,37 @@ Installationsabfrage bestätigen wir mit "J".**
     	browsable = yes
 
 ---
-	Am Schluss muss man den Service restarten und fertig.
+**4.1.6 Am Schluss muss man den Service restarten und fertig.**
 
 	sudo service smbd restart
 
 ---
-	Test:
+**4.2 Test:**
+---
 
-	Im Windows Explorer auf dem Notebook muss man jetzt über den Pfad mit der IP-Adresse und der festgelegten Freigabe die man in der Konfigurationsdatei
-	festgelegt hat, zugreifen.
+**Im Windows Explorer auf dem Notebook muss man jetzt über den Pfad mit der IP-Adresse und der festgelegten Freigabe die man in der Konfigurationsdatei
+festgelegt hat, zugreifen.**
 
 	BSP: \\172.16.17.137\Pi-Nas\
 ![grafik](https://user-images.githubusercontent.com/89446419/139815002-d48b941c-9ecc-4e5f-bcaa-42e58a106861.png)
 
 ---
-**4.1 USB-Stick mounten**
+**4.3 USB-Stick mounten**
 ---
-	Zuerst müssen wir die benötigten Treiber für NTFS-Festplatten herunterladen.
+**4.3.1 Zuerst müssen wir die benötigten Treiber für NTFS-Festplatten herunterladen.**
 
 	sudo apt-get -y install ntfs-3g hfsutils hfsprogs exfat-fuse
 
 ---
 
-	Mit folgendem Befehl müssen wir den device Pfad des USB-Stick herausfinden:
+**4.3.2 Mit folgendem Befehl müssen wir den device Pfad des USB-Stick herausfinden:**
 
 	sudo blkid -o list -w /dev/null
 
 ---
 
-	Zum Schluss muss man den USB-Stick über einen Befehl mounten. Hier muss man beachten, dass man am Schluss den richtigen USB-Stick Pfad und den korrekten Pfad
-	eingibt, den man mounten will.
+**4.3.3 Zum Schluss muss man den USB-Stick über einen Befehl mounten. Hier muss man beachten, dass man am Schluss den richtigen USB-Stick Pfad und den korrekten Pfad
+	eingibt, den man mounten will.**
 
 
 ![grafik](https://user-images.githubusercontent.com/89446419/139819878-30f881e9-05c5-4304-9926-b45e74846f8f.png)
