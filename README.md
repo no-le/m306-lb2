@@ -104,7 +104,7 @@ sudo blkid -o list -w /dev/null
 
 Zum Schluss muss man den USB-Stick über einen Befehl mounten. Hier muss man beachten, dass man am Schluss den richtigen USB-Stick Pfad und den korrekten Pfad eingibt, den man mounten will.
 
-![grafik](https://user-images.githubusercontent.com/89446419/139812021-63f054ed-412d-4f20-9ac3-24de453e3336.png)
+
 
 sudo mount -t ntfs-3g -o uid=1000,gid=1000 /dev/sda1 /home/pi/sambashare/
 
