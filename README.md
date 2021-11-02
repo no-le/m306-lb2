@@ -44,7 +44,8 @@ Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
 ---
 **4. Installationsanleitung**
 ---
-	Nach dem klassischen sudo apt update und sudo apt upgrade, kommen wir dazu, Samba zu installieren. Dies machen wir mit dem untenstehenden Command. Die 		Installationsabfrage bestätigen wir mit "J".
+	Nach dem klassischen sudo apt update und sudo apt upgrade, kommen wir dazu, Samba zu installieren. Dies machen wir mit dem untenstehenden Command. Die
+	Installationsabfrage bestätigen wir mit "J".
 
 ![grafik](https://user-images.githubusercontent.com/89446419/139820046-2cc36b74-9204-4fe3-9c01-c765e053df0f.png)
 
@@ -91,7 +92,8 @@ Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
 ---
 	Test:
 
-	Im Windows Explorer auf dem Notebook muss man jetzt über den Pfad mit der IP-Adresse und der festgelegten Freigabe die man in der Konfigurationsdatei 		festgelegt hat, zugreifen.
+	Im Windows Explorer auf dem Notebook muss man jetzt über den Pfad mit der IP-Adresse und der festgelegten Freigabe die man in der Konfigurationsdatei
+	festgelegt hat, zugreifen.
 
 	BSP: \\172.16.17.137\Pi-Nas\
 ![grafik](https://user-images.githubusercontent.com/89446419/139815002-d48b941c-9ecc-4e5f-bcaa-42e58a106861.png)
