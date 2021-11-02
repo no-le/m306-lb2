@@ -39,6 +39,7 @@ Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
    - Software
 
 1 x Putty oder VNC Viewer
+
 1 x Samba
 	
 ---
