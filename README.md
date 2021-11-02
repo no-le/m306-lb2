@@ -154,7 +154,7 @@ Um die Funktonalität des Sambas Dienstes zu testen, kann man folgenden Command 
 ---
 - Bei der Installation der Samba-Packete hatten wir das Problem, dass wir zuerst die neusten Updates installieren mussten. Bei der Eingabe des Commands: "Sudo apt-get update" hatten wir das Problem, dass eine Fehlermeldung erschien. In der stand, dass man das Depot mit dem Suite Wert von : "stable" in "oldstable" ändern mussten.
 
-- Beim Mounten des USB-Stick, hatten wir das Problem, dass der Fehler kam, dass man einen Value unter uid, und gid ID eintragen muss. Nach einbischen Googlen, wussten wir wo man diese zwei Werte herausfinden kann.
+- Beim Mounten des USB-Stick, hatten wir das Problem, dass der Fehler kam, dass man einen Value unter uid, und gid ID eintragen muss. Nach einbischen Googlen, wussten wir wo man diese zwei Werte findet.
 ---
 **7. Quellen**
 ---
