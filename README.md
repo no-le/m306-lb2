@@ -44,8 +44,8 @@ Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
 ---
 **4. Installationsanleitung**
 ---
-	Nach dem klassischen sudo apt update und sudo apt upgrade, kommen wir dazu, Samba zu installieren. Dies machen wir mit dem untenstehenden Command. Die
-	Installationsabfrage bestätigen wir mit "J".
+	**4.1 Nach dem klassischen sudo apt update und sudo apt upgrade, kommen wir dazu, Samba zu installieren. Dies machen wir mit dem untenstehenden Command. Die
+	Installationsabfrage bestätigen wir mit "J".**
 
 ![grafik](https://user-images.githubusercontent.com/89446419/139820046-2cc36b74-9204-4fe3-9c01-c765e053df0f.png)
 
