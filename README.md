@@ -93,8 +93,6 @@ BSP: \\172.16.17.137\Pi-Nas\
 ![grafik](https://user-images.githubusercontent.com/89446419/139815002-d48b941c-9ecc-4e5f-bcaa-42e58a106861.png)
 
 ---
-
----
 **4.1 USB-Stick mounten**
 ---
 Zuerst müssen wir die benötigten Treiber für NTFS-Festplatten herunterladen.
