@@ -44,13 +44,13 @@ Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
 ---
 **4. Installationsanleitung**
 ---
-	Nach dem klassischen sudo apt update und sudo apt upgrade, kommen wir dazu, Samba zu installieren. Dies machen wir mit dem untenstehenden Command. Die
-	Installationsabfrage bestätigen wir mit "J".
+**4.1.1 Nach dem klassischen sudo apt update und sudo apt upgrade, kommen wir dazu, Samba zu installieren. Dies machen wir mit dem untenstehenden Command. Die
+Installationsabfrage bestätigen wir mit "J".**
 
 ![grafik](https://user-images.githubusercontent.com/89446419/139820046-2cc36b74-9204-4fe3-9c01-c765e053df0f.png)
 
 ---
-	Danach wird mit dem unten folgenden Command getestet, ob alles in Ordnung ist und der Server läuft.
+**4.1.2 Danach wird mit dem unten folgenden Command getestet, ob alles in Ordnung ist und der Server läuft.**
 
 ![grafik](https://user-images.githubusercontent.com/89446419/139814807-4e64c3ab-98f4-48a3-9590-e0d1d4dc691e.png)
 
