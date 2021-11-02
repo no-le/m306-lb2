@@ -7,7 +7,7 @@ Werkstattauftrag W06 Pi-NAS
 **1. Autoren, Versionierung des Dokumentes**
    - Noah Lennemann, noah.lennemann@edu.tbz.ch
    - Leon Rezek, leon.rezek@edu.tbz.ch
-   - Version 1.1
+   - Version 1.2
 
 ---
    
@@ -16,7 +16,7 @@ Werkstattauftrag W06 Pi-NAS
    - _**Beschreibung: Welche Funktionen wird der Service erfuellen**_
 ---
 Pi NAS
-- Pi-Nas ist ein Netzwerkspeicher der mit den Samba Packages installiert wurde, der im eigenen Netzwerk den Geräte Speicher zur Verfügung stellt. Über einen Freigegebenen Netzwerkpfad hat der Benutzer die Möglichkeit Dateien herunterzuladen und hochzuladen. 
+- Pi-Nas ist ein Netzwerkspeicher der mit den Samba Packages installiert wurde, der im eigenen Netzwerk den Geräten Speicher zur Verfügung stellt. Über einen Freigegebenen Netzwerkpfad hat man die Möglichkeit Dateien herunterzuladen und hochzuladen. Zudem ist das Ziel, dass der Freigegebene Ordner über einen USB-Stick gemountet wird. 
 ---
    - _**Vorgesehener Zeitaufwand für die Realisierung**_
 ---
