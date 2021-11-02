@@ -65,6 +65,10 @@ Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
 ---
 
 <a href=https://exerror.com/repository-http-deb-debian-org-debian-buster-updates-inrelease-changed-its-suite-value-from-stable-updates-to-oldstable-updates>Samba Pakete Debugging</a> 
+
+<a href=https://ittweak.de/raspberry-pi-nas-server-datei-server-einrichten-mit-samba>USB-Stick mounten</a> 
+
+
 ---
 
 **8. OpenSource Lizenz**
