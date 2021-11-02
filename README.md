@@ -67,6 +67,7 @@ Im nächsten Schritt muss man ein Ordner erstellen auf dem Pi, der Freigegeben w
 
 ---
 Nun müssen wir die Konfigurationsdatei anpassen und ein paar Zeilen für die Freigabe hinzufügen. In diesem Fall müssen sie über den Command: 
+
 ![grafik](https://user-images.githubusercontent.com/89446419/139814965-40833665-e5f9-4fa1-898c-2d2547f75c15.png)
 
 
