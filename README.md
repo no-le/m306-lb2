@@ -163,7 +163,7 @@ Um die Funktonalität des Sambas Dienstes zu testen, kann man folgenden Command 
 
 <a href=https://ittweak.de/raspberry-pi-nas-server-datei-server-einrichten-mit-samba>USB-Stick mounten</a> 
 
-<a href=https://forums.raspberrypi.com/viewtopic.php?t=112850>"uid" und "gid" ID herausfinden</a> 
+<a href=https://forums.raspberrypi.com/viewtopic.php?t=112850>uid und gid ID herausfinden</a> 
 
 
 ---
