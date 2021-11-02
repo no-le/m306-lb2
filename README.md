@@ -44,87 +44,93 @@ Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
 ---
 **4. Installationsanleitung**
 ---
-Nach dem klassischen sudo apt update und sudo apt upgrade, kommen wir dazu, Samba zu installieren. Dies machen wir mit dem untenstehenden Command. Die Installationsabfrage bestätigen wir mit "J".
-![grafik](https://user-images.githubusercontent.com/89446419/139814752-427e149e-4591-4425-ba39-9e9fae82e7bd.png)
+	Nach dem klassischen sudo apt update und sudo apt upgrade, kommen wir dazu, Samba zu installieren. Dies machen wir mit dem untenstehenden Command. Die 		Installationsabfrage bestätigen wir mit "J".
+
+	![grafik](https://user-images.githubusercontent.com/89446419/139820046-2cc36b74-9204-4fe3-9c01-c765e053df0f.png)
 
 ---
-Danach wird mit dem unten folgenden Command getestet, ob alles in Ordnung ist und der Server läuft.
-![grafik](https://user-images.githubusercontent.com/89446419/139814807-4e64c3ab-98f4-48a3-9590-e0d1d4dc691e.png)
+	Danach wird mit dem unten folgenden Command getestet, ob alles in Ordnung ist und der Server läuft.
 
-![grafik](https://user-images.githubusercontent.com/89446419/139814826-66d64b31-9777-4014-a8ec-cc84d58cdb0f.png)
+	![grafik](https://user-images.githubusercontent.com/89446419/139814807-4e64c3ab-98f4-48a3-9590-e0d1d4dc691e.png)
 
-
----
-Die Konfigurationsdatei müssen wir später noch anpassen. Sichern tuen wir wie folgt: 
-
-![grafik](https://user-images.githubusercontent.com/89446419/139814862-7ecc3274-622a-488c-a12d-2d1286f68d61.png)
-
----
-
-Im nächsten Schritt muss man ein Ordner erstellen auf dem Pi, der Freigegeben werden sollte:
-![grafik](https://user-images.githubusercontent.com/89446419/139814917-4b79b024-c722-4719-a46b-30492bf9cb6b.png)
+	![grafik](https://user-images.githubusercontent.com/89446419/139814826-66d64b31-9777-4014-a8ec-cc84d58cdb0f.png)
 
 
 ---
-Nun müssen wir die Konfigurationsdatei anpassen und ein paar Zeilen für die Freigabe hinzufügen. In diesem Fall müssen sie über den Command: 
+	Die Konfigurationsdatei müssen wir später noch anpassen. Sichern tuen wir wie folgt: 
 
-![grafik](https://user-images.githubusercontent.com/89446419/139814965-40833665-e5f9-4fa1-898c-2d2547f75c15.png)
-
-
-In die Konfigurationsdatei zugreifen und folgende Zeilen Hinzufügen:
-
-[sambashare]
-    comment = Samba on Ubuntu
-    path = /home/username/sambashare
-    read only = no
-    browsable = yes
+	![grafik](https://user-images.githubusercontent.com/89446419/139814862-7ecc3274-622a-488c-a12d-2d1286f68d61.png)
 
 ---
-Am Schluss muss man den Service restarten und fertig.
 
-sudo service smbd restart
+	Im nächsten Schritt muss man ein Ordner erstellen auf dem Pi, der Freigegeben werden sollte:
+
+	![grafik](https://user-images.githubusercontent.com/89446419/139819967-10e5ee66-e046-4f7d-9bcd-e31c916e320d.png)
+
+
 
 ---
-Test:
+	Nun müssen wir die Konfigurationsdatei anpassen und ein paar Zeilen für die Freigabe hinzufügen. In diesem Fall müssen sie über den Command: 
 
-Im Windows Explorer auf dem Notebook muss man jetzt über den Pfad mit der IP-Adresse und der festgelegten Freigabe die man in der Konfigurationsdatei festgelegt hat, zugreifen.
+	![grafik](https://user-images.githubusercontent.com/89446419/139814965-40833665-e5f9-4fa1-898c-2d2547f75c15.png)
 
-BSP: \\172.16.17.137\Pi-Nas\
-![grafik](https://user-images.githubusercontent.com/89446419/139815002-d48b941c-9ecc-4e5f-bcaa-42e58a106861.png)
+
+	In die Konfigurationsdatei zugreifen und folgende Zeilen Hinzufügen:
+
+	[sambashare]
+    	comment = Samba on Ubuntu
+    	path = /home/username/sambashare
+    	read only = no
+    	browsable = yes
+
+---
+	Am Schluss muss man den Service restarten und fertig.
+
+	sudo service smbd restart
+
+---
+	Test:
+
+	Im Windows Explorer auf dem Notebook muss man jetzt über den Pfad mit der IP-Adresse und der festgelegten Freigabe die man in der Konfigurationsdatei 		festgelegt hat, zugreifen.
+
+	BSP: \\172.16.17.137\Pi-Nas\
+	![grafik](https://user-images.githubusercontent.com/89446419/139815002-d48b941c-9ecc-4e5f-bcaa-42e58a106861.png)
 
 ---
 **4.1 USB-Stick mounten**
 ---
-Zuerst müssen wir die benötigten Treiber für NTFS-Festplatten herunterladen.
+	Zuerst müssen wir die benötigten Treiber für NTFS-Festplatten herunterladen.
 
-sudo apt-get -y install ntfs-3g hfsutils hfsprogs exfat-fuse
-
----
-
-Mit folgendem Befehl müssen wir den device Pfad des USB-Stick herausfinden:
-
-sudo blkid -o list -w /dev/null
+	sudo apt-get -y install ntfs-3g hfsutils hfsprogs exfat-fuse
 
 ---
 
-Zum Schluss muss man den USB-Stick über einen Befehl mounten. Hier muss man beachten, dass man am Schluss den richtigen USB-Stick Pfad und den korrekten Pfad eingibt, den man mounten will.
+	Mit folgendem Befehl müssen wir den device Pfad des USB-Stick herausfinden:
 
-
-![grafik](https://user-images.githubusercontent.com/89446419/139815032-0434593b-9581-441e-93b4-071b1396b14b.png)
-
-sudo mount -t ntfs-3g -o uid=1000,gid=1000 /dev/sda1 /home/pi/sambashare/
+	sudo blkid -o list -w /dev/null
 
 ---
-Tipps: 
 
-/dev/sda1/ = USB-Stick Pfad
+	Zum Schluss muss man den USB-Stick über einen Befehl mounten. Hier muss man beachten, dass man am Schluss den richtigen USB-Stick Pfad und den korrekten Pfad
+	eingibt, den man mounten will.
 
-/home/pi/sambashare = Freigegebenen Pfad
 
-Sollte die Meldung erscheinen, dass die Fehlermeldung kommt, dass der Datenträger schon gemountet wurde, muss man den zuerst unmounten.
+	![grafik](https://user-images.githubusercontent.com/89446419/139819878-30f881e9-05c5-4304-9926-b45e74846f8f.png)
+
+	sudo mount -t ntfs-3g -o uid=1000,gid=1000 /dev/sda1 /home/pi/sambashare/
+
+---
+	Tipps: 
+
+	/dev/sda1/ = USB-Stick Pfad
+
+	/home/pi/sambashare = Freigegebenen Pfad
+
+	Sollte die Meldung erscheinen, dass die Fehlermeldung kommt, dass der Datenträger schon gemountet wurde, muss man den zuerst unmounten.
  
 
-Wenn die Fehlermeldung erscheint, dass man im mount Befehl, einen Value eintragen muss, sollte man zusätzlich auch beachten, dass die uid, und gid ID im Command korrekt ist. Um herauszufinden, welche uid und gid der Benutzer hat, muss man den Befehl: "id" eingeben.
+	Wenn die Fehlermeldung erscheint, dass man im mount Befehl, einen Value eintragen muss, sollte man zusätzlich auch beachten, dass die uid, und gid ID im
+	Command korrekt ist. Um herauszufinden, welche uid und gid der Benutzer hat, muss man den Befehl: "id" eingeben.
 
 
 
