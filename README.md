@@ -130,7 +130,7 @@ _/dev/sda1/ = USB-Stick Pfad_
 
 _/home/pi/sambashare = Freigegebenen Pfad_
 
-_Sollte die Meldung erscheinen, dass die Fehlermeldung kommt, dass der Datenträger schon gemountet wurde, muss man den zuerst unmounten._
+_Sollte die Fehlermeldung erscheinen, dass der Datenträger schon gemountet wurde, muss man den zuerst unmounten._
  
 
 _Wenn die Fehlermeldung erscheint, dass man im mount Befehl, einen Value eintragen muss, sollte man zusätzlich auch beachten, dass die uid, und gid ID im
