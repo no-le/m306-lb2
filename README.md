@@ -43,7 +43,7 @@ Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
 ---
 **4. Installationsanleitung**
 ---
-**4.1.1 Zuerst muss sichergestellt werden, dass die aktuelle Version des PI’s installiert ist. Wenn nicht, sollten diese umgehend installiert werden. Nun sollten die benötigten Packete installiert werden, diese sind in der Grafik aufgelistet. **
+4.1.1 Zuerst muss sichergestellt werden, dass die aktuelle Version des PI’s installiert ist. Wenn nicht, sollten diese umgehend installiert werden. Nun sollten die benötigten Packete installiert werden, diese sind in der Grafik aufgelistet. 
 
 samba samba-common smbclientcifs-util
 
