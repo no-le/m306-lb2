@@ -48,7 +48,7 @@ Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
 samba samba-common smbclientcifs-util
 
 ---
-**4.1.2 Darauffolgend kann der Status abgefragt werden. Die Services:« smbd» und « nmbd» sollten getestet werden. Beide sollte «active (running)» zurückgeben.   **
+4.1.2 Darauffolgend kann der Status abgefragt werden. Die Services:« smbd» und « nmbd» sollten getestet werden. Beide sollte «active (running)» zurückgeben.  
 
 ![grafik](https://user-images.githubusercontent.com/89446419/139814807-4e64c3ab-98f4-48a3-9590-e0d1d4dc691e.png)
 
