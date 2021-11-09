@@ -22,9 +22,7 @@ Pi NAS
 ---
 Die Umsetzung des Projekts dauert ungefähr 2 Lektionen
    
----
-   - _**Stolpersteine**_
----
+
 ---
 **3. Benötigte Hard- und Software**
 ---
